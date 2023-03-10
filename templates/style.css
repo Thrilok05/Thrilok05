@@ -1,0 +1,9 @@
+body {
+    background-image: url('static/image.jpg');
+    background-color: #fff;
+    opacity:50%;
+    color: #333;
+    background-size: cover;
+    background-position: center;
+  }
+  

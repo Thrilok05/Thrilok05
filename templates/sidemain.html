@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Your Website Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <br>
+  
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="Services">Services</a></li>
+          <li><a href="/contacts">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <h1>TOUCH ELECTRICALS</h1>
+      </div>
+    </header>
+    
+
+<div class="overlay">
+
+
+    <main>
+      <section>
+        <h1>Welcome to <strong>TouchElectricals&#174;</strong></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum ut nisi auctor tempus a et velit. Nulla malesuada ultrices justo, sit amet dapibus urna venenatis id. </p>
+      </section>
+      <section>
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum ut nisi auctor tempus a et velit. Nulla malesuada ultrices justo, sit amet dapibus urna venenatis id. </p>
+      </section>
+      <section>
+        <h2>Our Services</h2>
+
+        <ul>
+          <li>Service 1</li>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <li>Service 2</li>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <li>Service 3</li>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </ul>
+        
+          
+        {{option}}
+         
+
+     
+        <h2>Contact Us</h2>
+        <form action="/" method="POST">
+                <select name="services">
+                    <option value="1">Service #1</option>
+                    <option value="2">Service #2</option>
+                    <option value="3">Service #3</option>
+                </select><br>
+       
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+
+          <br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <br>
+        
+          <input type="submit" value="Submit">
+          </form>
+          {{name}}
+          {{service}}
+</div>
+
+       
+    </main>
+  </div>
+  <footer>
+    <p>TouchElectricals&#174; | All Rights Reserved</p>
+  </footer>
+  </body>
+</html>
