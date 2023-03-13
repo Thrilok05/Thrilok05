@@ -22,9 +22,14 @@ def remain():
         email=request.form["email"]
         with connection:
             with connection.cursor() as cursor:
-                qry="INSERT INTO data('name','E-mail') values(%s,%s)"
+                qry="INSERT INTO data(name,email) values(%s,%s)"
                 cursor.execute(qry,(name,email))
-            connection.commit()
+    else:
+        name=request.form.get("name")
+        email=request.form.get("email")
+        qry="INSERT INTO data(name,email) values(%s,%s)"
+        cursor.execute(qry,(name,email))
+    connection.commit()
           
     return f"name: {name}\nemail: {email}"
 
