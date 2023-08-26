@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Thrilok05
-- 👀 I’m interested in python
-- 🌱 I’m currently learning python
+- 👀 I’m interested in python and Cloud
+- 🌱 I’m currently learning Cloud computing
 - 📫 How to reach me--mail=thrivelu04@gmail.com
 - 👨‍💻 Happy coding!!🎉
 
